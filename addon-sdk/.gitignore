@@ -1,0 +1,4 @@
+node_modules/
+data/crypto-browserified.js
+
+npm_debug.log

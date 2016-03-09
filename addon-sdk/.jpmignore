@@ -1,0 +1,6 @@
+## node_modules and data-src are used to browserify the data script
+data-src/
+node_modules/
+
+## uncomment to include selected modules
+#!node_modules/my-jpm-module

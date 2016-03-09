@@ -1,0 +1,17 @@
+{
+  "description": "WebExtension browserify crypto",
+  "manifest_version": 2,
+  "name": "webext-browserify-crypto",
+  "version": "1.0",
+
+  "background": {
+    "scripts": ["crypto-browserified.js", "background.js"]
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "webext-browserify-crypto@mozilla.org",
+      "strict_min_version": "46.0.0"
+    }
+  }
+}

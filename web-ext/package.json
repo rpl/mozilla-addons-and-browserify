@@ -1,0 +1,17 @@
+{
+  "name": "webext-browserify-crypto",
+  "version": "1.0.0",
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "crypto-browserify": "^3.11.0"
+  },
+  "scripts": {
+    "browserify-build": "browserify -x crypto -r crypto-browserify -o ./crypto-browserified.js"
+  },
+  "author": "Luca Greco <lgreco@mozilla.com>",
+  "license": "MPL-2",
+  "keywords": [
+    "webextensions",
+    "browserify"
+  ]
+}
